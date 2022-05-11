@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="taustaPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyTyped="#tausta_OnKeyTyped" prefHeight="575.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hirsipuu.HirsipuuViewController">
+   <children>
+      <Ellipse fx:id="alusta" fill="#000911" layoutX="55.0" layoutY="439.0" onKeyTyped="#alusta_OnKeyTyped" radiusX="163.0" radiusY="68.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Line fx:id="puu1" endX="-100.0" endY="185.0" layoutX="146.0" layoutY="194.0" onKeyTyped="#puu_OnKeyTyped" startX="-100.0" startY="-99.0" visible="false" />
+      <Line fx:id="puu2" endX="34.0" layoutX="147.0" layoutY="95.0" onKeyTyped="#puu2_OnKeyTyped" startX="-100.0" visible="false" />
+      <Line fx:id="puu3" endX="-100.0" endY="51.0" layoutX="282.0" layoutY="95.0" onKeyTyped="#puu3_OnKeyTyped" startX="-100.0" visible="false" />
+      <Circle fx:id="paa" fill="TRANSPARENT" layoutX="182.0" layoutY="170.0" onKeyTyped="#paa_OnKeyTyped" radius="24.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Line fx:id="vartalo" endX="-100.0" endY="87.0" layoutX="282.0" layoutY="193.0" onKeyTyped="#vartalo_OnKeyTyped" startX="-100.0" visible="false" />
+      <Line fx:id="kasi1" endX="-121.0" endY="71.0" layoutX="284.0" layoutY="194.0" onKeyTyped="#kasi1_OnKeyTyped" startX="-101.5" startY="23.0" visible="false" />
+      <Line fx:id="kasi2" endX="-91.0" endY="60.0" layoutX="294.0" layoutY="201.0" onKeyTyped="#kasi2_OnKeyTyped" startX="-110.79290771484375" startY="19.0" visible="false" />
+      <Line fx:id="jalka1" endX="-123.0" endY="56.0" layoutX="282.0" layoutY="281.0" onKeyTyped="#jalka1_OnKeyTyped" startX="-100.0" visible="false" />
+      <Line fx:id="jalka2" disable="true" endX="-77.0" endY="55.0" layoutX="282.0" layoutY="281.0" onKeyTyped="#jalka2_OnKeyTyped" startX="-100.0" visible="false" />
+      <Label fx:id="k_kirjain" layoutX="289.0" layoutY="361.0" onKeyTyped="#k_OnKeyTyped" prefHeight="26.0" prefWidth="13.0" text="k" visible="false">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="a_kirjain" layoutX="309.0" layoutY="361.0" onKeyTyped="#a_OnKeyTyped" prefHeight="26.0" prefWidth="13.0" text="a" visible="false">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="m_kirjain" layoutX="327.0" layoutY="361.0" onKeyTyped="#m_OnKeyTyped" prefHeight="38.0" prefWidth="24.0" text="m" visible="false">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="p_kirjain" layoutX="354.0" layoutY="361.0" onKeyTyped="#p_OnKeyTyped" prefHeight="38.0" prefWidth="24.0" text="p" visible="false">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="i_kirjain" layoutX="377.0" layoutY="362.0" onKeyTyped="#i_OnKeyTyped" prefHeight="38.0" prefWidth="24.0" text="i" visible="false">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Line fx:id="viiva1" endX="85.0" layoutX="216.0" layoutY="400.0" onKeyTyped="#viiva1_OnKeyPressed" startX="70.0" />
+      <Line fx:id="viiva2" endX="85.0" layoutX="240.0" layoutY="400.0" onKeyPressed="#viiva2_OnKeyPressed" startX="70.0" />
+      <Line fx:id="viiva3" endX="85.0" layoutX="262.0" layoutY="400.0" onKeyPressed="#viiva3_OnKeyPressed" startX="70.0" />
+      <Line fx:id="viiva4" endX="85.0" layoutX="284.0" layoutY="400.0" onKeyPressed="#viiva4_OnKeyPressed" startX="70.0" />
+      <Line fx:id="viiva5" endX="85.0" layoutX="306.0" layoutY="400.0" onKeyPressed="#viiva5_OnKeyPressed" startX="70.0" />
+      <Label fx:id="voitit" layoutX="330.0" layoutY="497.0" onKeyTyped="#voitit_OnKeyTyped" text="Voitit!" visible="false" />
+      <Label fx:id="havisit" layoutX="323.0" layoutY="497.0" onKeyTyped="#havisit_OnKeyTyped" text="Hävisit!" visible="false" />
+   </children>
+</Pane>
