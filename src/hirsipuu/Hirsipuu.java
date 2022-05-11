@@ -7,7 +7,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
+/**
+ * Ensimmäisen vuoden koulutehtäviä - Hirsipuupeli JavaFX:llä
+ *
+ * @author Minna Lehtimäki
+ */
 public class Hirsipuu extends Application {
     
     @Override

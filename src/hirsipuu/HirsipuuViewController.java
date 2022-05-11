@@ -11,6 +11,11 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Ellipse;
 import javafx.scene.shape.Line;
 
+/**
+ * Ensimmäisen vuoden koulutehtäviä - Hirsipuupeli JavaFX:llä
+ *
+ * @author Minna Lehtimäki
+ */
 public class HirsipuuViewController implements Initializable {
 
     @FXML
