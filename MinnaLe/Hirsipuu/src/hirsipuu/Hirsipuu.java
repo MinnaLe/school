@@ -21,7 +21,7 @@ public class Hirsipuu extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
-        stage.setTitle("Hirsipuupeli -arvaa kirjaimet-");
+        stage.setTitle("Hirsipuupeli - arvaa kirjaimet -");
         stage.show();
         root.requestFocus();
     }

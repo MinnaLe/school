@@ -38,61 +38,44 @@ public class HirsipuuViewController implements Initializable {
 
     @FXML
     private Ellipse alusta;
-
     @FXML
     private Line puu1;
-
     @FXML
     private Line puu2;
-
     @FXML
     private Line puu3;
-
     @FXML
     private Circle paa;
-
     @FXML
     private Line vartalo;
-
     @FXML
     private Line kasi1;
-
     @FXML
     private Line kasi2;
-
     @FXML
     private Line jalka1;
-
     @FXML
     private Line jalka2;
-
+    
     @FXML
     private Label k_kirjain;
-
     @FXML
     private Label a_kirjain;
-
     @FXML
     private Label m_kirjain;
-
     @FXML
     private Label p_kirjain;
-
     @FXML
     private Label i_kirjain;
 
     @FXML
     private Line viiva1;
-
     @FXML
     private Line viiva2;
-
     @FXML
     private Line viiva3;
-
     @FXML
     private Line viiva4;
-
     @FXML
     private Line viiva5;
 
@@ -175,37 +158,37 @@ public class HirsipuuViewController implements Initializable {
 
     @FXML
     void alusta_OnKeyTyped(KeyEvent event) {
-
+        
     }
 
     @FXML
     void puu_OnKeyTyped(KeyEvent event) {
-
+        
     }
 
     @FXML
     void puu2_OnKeyTyped(KeyEvent event) {
-
+        
     }
 
     @FXML
     void puu3_OnKeyTyped(KeyEvent event) {
-
+        
     }
 
     @FXML
     void paa_OnKeyTyped(KeyEvent event) {
-
+        
     }
 
     @FXML
     void vartalo_OnKeyTyped(KeyEvent event) {
-
+        
     }
 
     @FXML
     void jalka1_OnKeyTyped(KeyEvent event) {
-
+        
     }
 
     @FXML
